@@ -22,7 +22,10 @@
 
 brew install
 
+    brew install git && brew link --overwrite git
+    brew install bash-completion
     brew install dockutil
+    brew install direnv
     brew install google-chrome
         dockutil --add /Applications/Google\ Chrome.app
     brew cask install slack
